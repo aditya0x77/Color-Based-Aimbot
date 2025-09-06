@@ -109,3 +109,9 @@ This project implements a color-based aimbot and triggerbot for Valorant using C
   - Check screen resolution and adjust capture coordinates (835, 415) if needed.
 - **Ethics**:
   - Use this project ethically and understand the risks of using it in competitive games. ⚠️
+ 
+ ## 🌃 End of the Line, Choomba  
+
+Thanks for jacking into this little project.  
+May your colors always track true, and your circuits never fry. ⚡
+![goodbye gif](Images/Johnny.gif)
