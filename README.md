@@ -52,6 +52,6 @@ Using automation or aim-assist tools in online games violates terms of service a
 ---
 
 ## 🌃 End of the Line, Choomba
-May your tracking stay sharp.  
+May your tracking stay sharp. 🎯
 
 ![goodbye gif](Images/Johnny.gif)
