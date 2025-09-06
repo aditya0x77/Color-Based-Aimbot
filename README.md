@@ -39,9 +39,10 @@ This project implements a color-based aimbot and triggerbot for Valorant using C
   - Install OpenCV for C++ (e.g., via vcpkg or manual setup).
   - Ensure the Arduino is flashed with the provided firmware.
   - You will have to change the HID and PID of your Arduino; there are plenty of tutorials on YouTube.
+  - SerialCom library by this guy "@mamashmandal" https://github.com/manashmandal/SerialPort
 
 ## Installation 🛠️
-
+   ###Make sure you got the SerialPort library installed correctly
 1. **Compile C++ Code**:
    - Clone this repository: `git clone https://github.com/yourusername/valorant-colorbot.git`.
    - Open the project in your IDE (e.g., Visual Studio).
