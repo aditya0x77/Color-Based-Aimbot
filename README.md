@@ -7,7 +7,7 @@ Implemented in **C++ (Windows API, OpenCV)** for capture and detection, with an 
 
 ## ⚠️ Disclaimer
 This project is for research and educational purposes only.  
-Using automation or aim-assist tools in online games violates terms of service and may result in bans.
+Using Aim-assist tools in online games violates terms of service and may result in bans.
 
 ⚠️⚠️You will have to change your Leonardo’s HID and PID to match your mouse’s.⚠️⚠️
 
