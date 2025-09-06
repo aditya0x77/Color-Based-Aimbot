@@ -1,13 +1,15 @@
 # Valorant Colorbot 🎮
 
 Color-based aimbot + triggerbot for Valorant.  
-Implemented in **C++ (OpenCV, Windows API)** for capture and detection, with an **Arduino Leonardo** handling HID mouse emulation.
+Implemented in **C++ (Windows API, OpenCV)** for capture and detection, with an **Arduino Leonardo** handling HID mouse emulation.
 
 ---
 
 ## ⚠️ Disclaimer
 This project is for research and educational purposes only.  
 Using automation or aim-assist tools in online games violates terms of service and may result in bans.
+
+⚠️⚠️You will have to change your Leonardo’s HID and PID to match your mouse’s.⚠️⚠️
 
 ---
 
@@ -17,7 +19,8 @@ Using automation or aim-assist tools in online games violates terms of service a
 - **Target Detection**: Search within a circular FOV; pick the topmost matching pixel.  
 - **Aiming**: Calculate relative delta to screen center; apply linear smoothing for natural motion.  
 - **Triggering**: Automatic click when a valid target is inside FOV.  
-- **Arduino HID**: Serial communication to Arduino, which performs the mouse input at hardware level.
+- **Arduino HID**: Serial communication with Arduino (Leonardo) for hardware-level mouse input.  
+- **Serial Com**: Communication handled through the [`SerialPort`](https://github.com/manashmandal/SerialPort) library.  
 
 ---
 
@@ -27,6 +30,7 @@ Using automation or aim-assist tools in online games violates terms of service a
 - Smoothed mouse movement  
 - Aimbot + triggerbot functionality  
 - Hardware-level input via Arduino HID  
+- Serial communication layer using **SerialPort** lib 
 
 ---
 
@@ -43,7 +47,7 @@ Using automation or aim-assist tools in online games violates terms of service a
 ## 📝 Notes
 - 🎯 HSV values define detection accuracy  
 - 🎛️ FOV and smoothing determine responsiveness and precision  
-- ⚡ Arduino integration provides HID-level control rather than software injection  
+- ⚡ Arduino + SerialPort lib provide HID-level control with minimal detection surface  
 
 ---
 
