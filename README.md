@@ -53,7 +53,5 @@ Using Aim-assist tools in online games violates terms of service and may result 
 
 ## 🌃 End of the Line, Choomba  
 Thanks for checking out this little project.  
-May your tracking stay sharp.🎯
-
 
 ![goodbye gif](Images/Johnny.gif)
