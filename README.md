@@ -50,7 +50,28 @@ Using Aim-assist tools in online games violates terms of service and may result 
 - ⚡ Arduino + SerialPort lib provide HID-level control with minimal detection surface  
 
 ---
+## Installation & Usage 🚀
 
+```bash
+# Clone the repository
+git clone https://github.com/aditya0x77/Color-Based-Aimbot.git
+cd Color-Based-Aimbot
+
+# Spoof the HID and PID of your Arduino to match your mouse
+# Follow this guide: https://www.youtube.com/watch?v=krjCJBfBgr4&t=87s
+
+# Add the SerialPort library to your project
+# GitHub: https://github.com/manashmandal/SerialPort
+
+# Open Arduino IDE and upload the Arduino code to your Arduino Leonardo
+
+# Check the COM port to which the Leonardo is connected
+
+# Run the main.cpp (compile and execute in your C++ IDE or using g++)
+# Enter your COM port when prompted
+
+# Optional: change smoothing and FOV directly in the code if desired
+```
 ## 🌃 End of the Line, Choomba  
 Thanks for checking out this little project.  
 BYE! BYE!
