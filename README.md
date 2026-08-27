@@ -88,8 +88,3 @@ The image on the left is the direct screen capture. The image on the right shows
     -   Smoothing and FOV values can be adjusted directly in the source code.
 
 ---
-## 🌃 End of the Line, Choomba  
-Thanks for checking out this little project.  
-BYE! BYE!
-
-![goodbye gif](Images/Johnny.gif)
